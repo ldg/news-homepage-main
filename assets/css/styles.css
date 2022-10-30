@@ -1,0 +1,29 @@
+:root {
+   --softOrange: hsl(35, 77%, 62%);
+   --softRed: hsl(5, 85%, 63%);
+   --offWhite:  hsl(36, 100%, 99%);
+   --grayishBlue: hsl(233, 8%, 79%);
+   --darkGrayishBlue: hsl(236, 13%, 42%);
+   --veryDarkBlue: hsl(240, 100%, 5%);
+   --psize: 15px;
+}
+/* @font-face {
+    font-family: Inter-Regular;
+    src: url(../fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: Inter-Bold;
+    src: url(../fonts/static/Inter-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Inter-ExtraBold;
+    src: url(../fonts/static/Inter-ExtraBold.ttf);
+} */
+body {
+    font-size: var(--psize);
+    font-family: 'Inter', sans-serif;
+    background-color: var(--offWhite);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
