@@ -1,6 +1,7 @@
 :root {
   --softOrange: hsl(35, 77%, 62%);
   --softRed: hsl(5, 85%, 63%);
+  --mutedSoftRed: hsl(5, 56%, 53%);
   --offWhite: hsl(36, 100%, 99%);
   --grayishBlue: hsl(233, 8%, 79%);
   --darkGrayishBlue: hsl(236, 13%, 42%);
@@ -23,6 +24,28 @@ img {
   width: 100%;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    padding: 2em;
+  }
+  div#main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1em;
+  }
+  .callout {
+    margin-top: 2em;
+  }
+  .article-list {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+  }
+  article {
+    grid-template-columns: auto !important;
+  }
+}
 @media screen and (min-width: 1440px) {
   body {
     padding: 3em 6em !important;
@@ -42,6 +65,9 @@ img {
   header nav ul li a {
     text-decoration: none;
     color: var(--darkGrayishBlue);
+  }
+  header nav ul li a:hover {
+    color: var(--veryDarkBlue);
   }
   #banner {
     background-image: url("/assets/images/image-web-3-desktop.jpg") !important;
@@ -180,6 +206,11 @@ button.btn {
   letter-spacing: 0.25rem;
   font-weight: 700;
   margin-bottom: 4em;
+  cursor: pointer;
+}
+
+button.btn:hover {
+  background-color: var(--mutedSoftRed);
 }
 
 .callout {

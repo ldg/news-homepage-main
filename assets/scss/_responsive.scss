@@ -1,3 +1,25 @@
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    body {
+        padding: 2em;
+    }
+    div#main-content {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1em;
+    }
+    .callout {
+        margin-top: 2em;
+    }
+    .article-list {
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+    }
+    article {
+        grid-template-columns: auto !important;
+    }
+}
 @media screen and (min-width:1440px ) {
 
     body {
@@ -15,6 +37,9 @@
                         a {
                             text-decoration: none;
                             color: var(--darkGrayishBlue);
+                        }
+                        a:hover {
+                            color: var(--veryDarkBlue);
                         }
 
                 }
