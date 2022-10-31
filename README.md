@@ -50,7 +50,7 @@ My approach to this project was to first consider the markup I'd need to build o
 
 ### What I learned
 
-This project really helped me better understand the mobile-first work flow. In past projects I more naturally built from the desktop first and used media queries on smaller screens. Working through this project I could see the benifits of working mobile first. It's much more efficient, I fould I spent less time struggling with getting layouts to work on different screen sizes because each layout builds upon the previous screensize's layout.
+This project really helped me better understand the mobile-first work flow. In past projects I more naturally built from the desktop first and used media queries on smaller screens. Working through this project I could see the benifits of working mobile first. It's much more efficient, I found I spent less time struggling with getting layouts to work on different screen sizes because each layout builds upon the previous screensize's layout.
 
 I used SASS on this project, I found I needed to limit my use of partials rather than create a very structured series of nested .scss files. While I can see the benefit of nesting everything on larger website, I think for this project it was easier for me to keep track of styles with minimal partials
 
