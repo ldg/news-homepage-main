@@ -12,6 +12,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
@@ -58,6 +59,9 @@ I used SASS on this project, I found I needed to limit my use of partials rather
 
 In the short term I want to improve my understanding of vanilla Javascript, because I'd really like to explore React, and learn to work with static site generators. My primary experience is working with Wordpress, so I'd love to be able to move into using something like Gatsby with headless Wordpress. 
 
+### Useful resources
+
+- [The 100% correct way to do CSS breakpoints](https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862) - This article was very helpful in my understanding of setting media query breakpoints. I thought the approach made a lot of sense.
 
 ## Author
 

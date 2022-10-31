@@ -1,33 +1,27 @@
-@media screen and (min-width: 768px) and (max-width: 1024px){
+//Phone only
+@media screen and (max-width: 599px) {
     body {
-        padding: 2em;
-    }
-    div#main-content {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 1em;
-    }
-    .callout {
-        margin-top: 2em;
-    }
-    .article-list {
-        padding: 0;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 1em;
-    }
-    article {
-        grid-template-columns: auto !important;
-    }
-}
-@media screen and (min-width:1440px ) {
-
-    body {
-        padding: 3em 6em !important;
+        padding: 2em .9em;
     }
 
     header {
-        padding: 2em 0 4em 0;
+        margin-bottom: 2em;
+    }
+}
+
+// tablets - portrait
+@media screen and (min-width: 600px){
+    body {
+        padding: 2em;
+    }
+
+    #mobile-menu {
+        display: none
+    }
+
+    header {
+        padding: 2em 0;
+        margin-bottom: 0;
         nav {
             ul {
                 display: flex !important;
@@ -47,13 +41,39 @@
         }
     }
 
+    div#main-content {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 1em;
+    }
+    
+    .article-list {
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+    }
+    
+}
+
+//tablet - landscape
+@media screen and (min-width: 900px) {
+    article {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        gap: 1em;
+    }
+}
+
+// desktop 
+@media screen and (min-width: 1200px) {
+    body {
+        padding: 3em 6em;
+    }
+
     #banner {
         background-image: url('../images/image-web-3-desktop.jpg') !important;
         margin-top: 0 !important;
-    }
-    
-    #mobile-menu {
-        display: none
     }
 
    #main-content {
@@ -77,4 +97,19 @@
         gap: 1em;
         grid-template-columns: repeat(3, 1fr);
     }
+    
+    article {
+        grid-template-columns: 40% 60%;
+        gap: 1.5em;
+    }
 }
+
+// wide screen desktop 
+@media screen and (min-width: 1800px) {
+    body {
+        max-width: 1600px;
+        margin: auto;
+    }
+}
+
+

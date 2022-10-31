@@ -6,7 +6,6 @@ body {
     font-size: var(--psize);
     font-family: 'Inter', sans-serif;
     background-color: var(--offWhite);
-    padding: 2em .9em;
 }
 .logo {
     img {
@@ -98,7 +97,7 @@ p {
 }
 
 #banner {
-    margin-top: 2em;
+    // margin-top: 2em;
     margin-bottom: 2em;
     height: 300px;
     background-image: url('../images/image-web-3-mobile.jpg');
@@ -159,12 +158,6 @@ button.btn:hover {
     }
 }
 
-article {
-    display: grid;
-    grid-template-columns: 30% 70%;
-    gap: 1.5em;
-}
-
 .post-thumb {
     width: 100%;
     height: auto;
@@ -179,7 +172,6 @@ article {
     h4 {
         margin-bottom: 0;
     }
-
 }
 
 
