@@ -34,6 +34,9 @@
                         }
                         a:hover {
                             color: var(--veryDarkBlue);
+                            transition: color 1s;
+                            border-bottom: 1px dotted var(--veryDarkBlue);
+                            transition: border-bottom 1s;
                         }
 
                 }
@@ -52,6 +55,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1em;
+    }
+    .article-content {
+        padding-right: 1.5em;
     }
     
 }

@@ -120,6 +120,7 @@ button.btn {
 }
 button.btn:hover {
     background-color: var(--mutedSoftRed);
+    transition: background-color 1s;
 }
 
 .callout {

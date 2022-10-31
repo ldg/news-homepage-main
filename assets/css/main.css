@@ -58,6 +58,11 @@ img {
   }
   header nav ul li a:hover {
     color: var(--veryDarkBlue);
+    -webkit-transition: color 1s;
+    transition: color 1s;
+    border-bottom: 1px dotted var(--veryDarkBlue);
+    -webkit-transition: border-bottom 1s;
+    transition: border-bottom 1s;
   }
   div#main-content {
     display: grid;
@@ -69,6 +74,9 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
+  }
+  .article-content {
+    padding-right: 1.5em;
   }
 }
 @media screen and (min-width: 900px) {
@@ -229,6 +237,8 @@ button.btn {
 
 button.btn:hover {
   background-color: var(--mutedSoftRed);
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
 }
 
 .callout {
