@@ -70,7 +70,7 @@ img {
     color: var(--veryDarkBlue);
   }
   #banner {
-    background-image: url("/assets/images/image-web-3-desktop.jpg") !important;
+    background-image: url("../images/image-web-3-desktop.jpg") !important;
     margin-top: 0 !important;
   }
   #mobile-menu {
@@ -159,11 +159,11 @@ nav #mobile-menu.open ul li a {
 nav #mobile-icon {
   width: 40px;
   height: 20px;
-  background: url(/assets/images/icon-menu.svg) no-repeat;
+  background: url(../images/icon-menu.svg) no-repeat;
   cursor: pointer;
 }
 nav #mobile-icon.close {
-  background: url(/assets/images/icon-menu-close.svg) no-repeat;
+  background: url(../images/icon-menu-close.svg) no-repeat;
   height: 40px;
   float: right;
   margin-top: 2.6rem;
