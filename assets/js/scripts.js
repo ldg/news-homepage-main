@@ -9,4 +9,3 @@ function openMenu(){
 }
 
 mobileIcon.addEventListener('click', openMenu);
-
