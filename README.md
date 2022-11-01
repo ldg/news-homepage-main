@@ -37,7 +37,7 @@ Users should be able to:
 
 ## My process
 
-My approach to this project was to first consider the markup I'd need to build out the website as outlined in design specifications. I knew I wanted to build it mobile-first, I chose to limit the breakpoints to generic sizes rather than try to support too many devices. In the previous projects I'd tried supporting too many devices and I found it got too complex for me to manage effectively. So with this project I decided to simplify things, and be successful within that scope.
+My approach to this project was to first consider the markup I'd need to build out the website as outlined in design specifications. I knew I wanted to build it mobile-first, I chose to limit the breakpoints to generic sizes rather than try to support too many devices. In the previous projects I'd tried supporting too many devices and I found it got too complex for me to manage effectively. So with this project I decided to simplify things, and be successful within that scope. As an extra challenge for myself I included styles for tablets and wide-screen monitors as well as for phones and smaller desktop screens.
 
 ### Built with
 
