@@ -37,7 +37,9 @@ Users should be able to:
 
 ## My process
 
-My approach to this project was to first consider the markup I'd need to build out the website as outlined in design specifications. I knew I wanted to build it mobile-first, I chose to limit the breakpoints to generic sizes rather than try to support too many devices. In the previous projects I'd tried supporting too many devices and I found it got too complex for me to manage effectively. So with this project I decided to simplify things, and be successful within that scope. As an extra challenge for myself I included styles for tablets and wide-screen monitors as well as for phones and smaller desktop screens.
+My approach to this project was to first consider the markup I'd need to build out the website as outlined in design specifications. I knew I wanted to build it mobile-first, I chose to limit the breakpoints to generic sizes rather than try to support too many devices. In the previous projects I'd tried supporting too many devices and I found it got too complex for me to manage effectively. So with this project I decided to simplify things, and be successful within that scope. As an extra challenge for myself I included styles for tablets and wide-screen monitors as well as for phones and smaller desktop screens. 
+
+On the tablet view I want outside the design specs and made some design decisions, making the blog-list items easier to navigate by simplifying their layout so they where more like cards. I did this because the challenge only specified desktop and mobile, so I thought since I'm adding this extra challenge to the project I'd give myself the flexibility to explore the layout a bit.
 
 ### Built with
 
@@ -52,7 +54,9 @@ My approach to this project was to first consider the markup I'd need to build o
 
 This project really helped me better understand the mobile-first work flow. In past projects I more naturally built from the desktop first and used media queries on smaller screens. Working through this project I could see the benifits of working mobile first. It's much more efficient, I found I spent less time struggling with getting layouts to work on different screen sizes because each layout builds upon the previous screensize's layout.
 
-I used SASS on this project, I found I needed to limit my use of partials rather than create a very structured series of nested .scss files. While I can see the benefit of nesting everything on larger website, I think for this project it was easier for me to keep track of styles with minimal partials
+This was also my first experiance using Grid, in the past I've relied on Flex to manage layouts but I've found Grid to be quite wonderful so far.
+
+I used SASS on this project, I found I needed to limit my use of partials rather than create a very structured series of nested .scss files. While I can see the benefit of nesting everything on larger website, I think for this project it was easier for me to keep track of styles with minimal partials.
 
 
 ### Continued development
@@ -61,7 +65,7 @@ In the short term I want to improve my understanding of vanilla Javascript, beca
 
 ### Useful resources
 
-- [The 100% correct way to do CSS breakpoints](https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862) - This article was very helpful in my understanding of setting media query breakpoints. I thought the approach made a lot of sense.
+- [The 100% correct way to do CSS breakpoints](https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862) - This article was very helpful in my understanding of setting media query breakpoints. I thought the approach outlined in the article made a lot of sense.
 
 ## Author
 
